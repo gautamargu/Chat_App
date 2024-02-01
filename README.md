@@ -24,10 +24,12 @@ Make sure you have the following software installed:
 1. Clone the repository:
 
     git clone https://github.com/gautamargu/Chat_App.git
-    cd Chat_App/frontend
+    
 
 2. Install dependencies:
 
+    cd Chat_App/frontend
+    
     npm i
 
 3. Run the development server :

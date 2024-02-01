@@ -28,7 +28,7 @@ export class SidebarComponent {
       image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
       name: 'Riya Agarwal',
       recentChats: 'Lorem sit amet consectetur',
-      typing: true,
+      typing: false,
       timeDuration: '45 min',
       active: false
     },
@@ -36,7 +36,7 @@ export class SidebarComponent {
       image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
       name: 'Gautam Kumar',
       recentChats: 'Lorem sit amet consectetur',
-      typing: false,
+      typing: true,
       timeDuration: '45 min',
       active: true
     },
@@ -53,6 +53,38 @@ export class SidebarComponent {
       recentChats: 'Lorem sit amet consectetur',
       typing: false,
       timeDuration: '45 min',
+      active: false
+    },
+    {
+      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
+      name: 'Gautam Kumar',
+      recentChats: 'Lorem sit amet consectetur',
+      typing: false,
+      timeDuration: '45 min',
+      active: true
+    },
+    {
+      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
+      name: 'Gautam Kumar',
+      recentChats: 'Lorem sit amet consectetur',
+      typing: false,
+      timeDuration: '45 min',
+      active: false
+    },
+    {
+      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
+      name: 'Gautam Kumar',
+      recentChats: 'Lorem sit amet consectetur',
+      typing: false,
+      timeDuration: '45 min',
+      active: false
+    },
+    {
+      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
+      name: 'Gautam Kumar',
+      recentChats: 'Lorem sit amet consectetur',
+      typing: true,
+      timeDuration: '45 min',
       active: true
     },
     {
@@ -67,7 +99,7 @@ export class SidebarComponent {
       image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
       name: 'Gautam Kumar',
       recentChats: 'Lorem sit amet consectetur',
-      typing: true,
+      typing: false,
       timeDuration: '45 min',
       active: false
     },
@@ -77,7 +109,7 @@ export class SidebarComponent {
       recentChats: 'Lorem sit amet consectetur',
       typing: true,
       timeDuration: '45 min',
-      active: false
+      active: true
     },
     {
       image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
@@ -85,45 +117,13 @@ export class SidebarComponent {
       recentChats: 'Lorem sit amet consectetur',
       typing: true,
       timeDuration: '45 min',
-      active: false
+      active: true
     },
     {
       image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
       name: 'Gautam Kumar',
       recentChats: 'Lorem sit amet consectetur',
-      typing: true,
-      timeDuration: '45 min',
-      active: false
-    },
-    {
-      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
-      name: 'Gautam Kumar',
-      recentChats: 'Lorem sit amet consectetur',
-      typing: true,
-      timeDuration: '45 min',
-      active: false
-    },
-    {
-      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
-      name: 'Gautam Kumar',
-      recentChats: 'Lorem sit amet consectetur',
-      typing: true,
-      timeDuration: '45 min',
-      active: false
-    },
-    {
-      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
-      name: 'Gautam Kumar',
-      recentChats: 'Lorem sit amet consectetur',
-      typing: true,
-      timeDuration: '45 min',
-      active: false
-    },
-    {
-      image: 'https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg',
-      name: 'Gautam Kumar',
-      recentChats: 'Lorem sit amet consectetur',
-      typing: true,
+      typing: false,
       timeDuration: '45 min',
       active: false
     },
