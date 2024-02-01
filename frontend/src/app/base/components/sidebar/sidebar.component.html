@@ -1,0 +1,72 @@
+<div class="chat_list">
+  <div class="chat_nav">
+    <div class="nav_text">
+      <h3 class="chat_title">Chats</h3>
+    </div>
+    <div class="feature">
+      <div class="add">
+        <img
+          width="10"
+          height="10"
+          src="https://img.icons8.com/ios/50/plus-math--v1.png"
+          alt="plus-math--v1"
+        />
+        <!-- <p>Add</p> -->
+        <a href="">Add</a>
+      </div>
+
+      <div class="filter">
+        <img
+          width="10"
+          height="10"
+          src="https://img.icons8.com/ios/20/filled-filter.png"
+          alt="filled-filter"
+        />
+        <a href="">Filter</a>
+      </div>
+    </div>
+  </div>
+  <div class="text-search">
+    <img
+      width="22"
+      height="22"
+      src="https://img.icons8.com/ios/50/search--v1.png"
+      class="search_icon"
+      alt="search--v1"
+    />
+    <input
+      type="text"
+      class="search_bar"
+      id="search"
+      placeholder="Search contact / chat"
+    />
+  </div>
+
+  <div class="user_list" id="all_chats">
+    <ul class="active_list">
+      @for (user of users; track user.name) {
+      <li class="personal_chats">
+        <div class="media-group">
+          <img class="profile_image" [src]="user.image" alt="" />
+        </div>
+
+        <div class="media-col">
+          <div class="media-row">
+            <h5 class="name">{{ user.name }}</h5>
+            @if (user.typing) {
+            <span class="typing">typing ...</span>
+            }
+          </div>
+          <div class="recent-chat">
+            <p class="content">{{ user.recentChats }}</p>
+            <span class="meta">
+              <span class="dot" [class.active]="user.active"></span>
+              <small>{{ user.timeDuration }}</small>
+            </span>
+          </div>
+        </div>
+      </li>
+      } @empty { Empty list of users }
+    </ul>
+  </div>
+</div>
