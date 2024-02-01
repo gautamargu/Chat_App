@@ -27,7 +27,9 @@ Make sure you have the following software installed:
     cd Chat_App/frontend
 
 2. Install dependencies:
+
     npm i
 
-3. Run the development server
+3. Run the development server :
+
     ng s
